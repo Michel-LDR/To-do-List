@@ -1,0 +1,108 @@
+.todoItem {
+  padding: 18px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.todoItem:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.todoItem.completed {
+  background-color: #f0f7f0;
+  border-color: #81c784;
+}
+
+.taskContent {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.completed .taskContent {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.checkbox {
+  margin-right: 12px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #667eea;
+}
+
+.taskText {
+  font-size: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.editButton,
+.deleteButton,
+.saveButton,
+.cancelButton {
+  padding: 8px 14px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.editButton {
+  background-color: #2196f3;
+}
+
+.editButton:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}
+
+.deleteButton {
+  background-color: #ff5252;
+}
+
+.deleteButton:hover {
+  background-color: #ff1744;
+  transform: scale(1.05);
+}
+
+.saveButton {
+  background-color: #4caf50;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}
+
+.cancelButton {
+  background-color: #999;
+}
+
+.cancelButton:hover {
+  background-color: #777;
+}
+
+.editInput {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #667eea;
+  border-radius: 6px;
+  outline: none;
+  margin-right: 10px;
+}

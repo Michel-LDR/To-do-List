@@ -1,0 +1,30 @@
+.statsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  font-size: 14px;
+  color: #666;
+}
+
+.clearButton {
+  padding: 6px 12px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.clearButton:hover {
+  background-color: #ff1744;
+}
