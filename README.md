@@ -1,171 +1,171 @@
-# To-Do List - Gerenciador de Tarefas
+# To-Do List - Task Manager
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Uma aplicação moderna e intuitiva para gerenciamento de tarefas, construída com React e seguindo as melhores práticas de desenvolvimento frontend.
+A modern and intuitive task management application, built with React and following frontend development best practices.
 
-## Sobre o Projeto
+## About the Project
 
-Este projeto foi desenvolvido como parte do meu aprendizado em React.js, focando em componentização, gerenciamento de estado com hooks, e organização profissional de código. A aplicação permite que usuários criem, editem, completem e organizem suas tarefas diárias de forma eficiente.
+This project was developed as part of my learning journey in React.js, focusing on componentization, state management with hooks, and professional code organization. The application allows users to create, edit, complete, and organize their daily tasks efficiently.
 
-## Funcionalidades
+## Features
 
-- Adicionar tarefas - Crie novas tarefas rapidamente
-- Editar tarefas - Modifique o texto de tarefas existentes
-- Deletar tarefas - Remova tarefas individualmente
-- Marcar como concluída - Acompanhe seu progresso
-- Filtros inteligentes - Visualize todas, ativas ou concluídas
-- Contador de tarefas - Veja estatísticas em tempo real
-- Limpar concluídas - Remova todas as tarefas finalizadas de uma vez
-- Persistência de dados - Suas tarefas são salvas automaticamente
-- Design responsivo - Funciona perfeitamente em mobile e desktop
-- Atalhos de teclado - Pressione Enter para adicionar tarefas
+- Add tasks - Create new tasks quickly
+- Edit tasks - Modify existing task text
+- Delete tasks - Remove tasks individually
+- Mark as completed - Track your progress
+- Smart filters - View all, active, or completed tasks
+- Task counter - See real-time statistics
+- Clear completed - Remove all finished tasks at once
+- Data persistence - Your tasks are saved automatically
+- Responsive design - Works perfectly on mobile and desktop
+- Keyboard shortcuts - Press Enter to add tasks
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 ### Core
-- **React** 18+ - Biblioteca JavaScript para interfaces
-- **React Hooks** - useState, useEffect para gerenciamento de estado
+- **React** 18+ - JavaScript library for interfaces
+- **React Hooks** - useState, useEffect for state management
 - **JavaScript ES6+** - Arrow functions, destructuring, spread operator
 
-### Estilização
-- **CSS Modules** - Estilos isolados e sem conflitos
+### Styling
+- **CSS Modules** - Isolated styles without conflicts
 - **CSS3** - Flexbox, Grid, Transitions, Gradients
-- **Design Responsivo** - Mobile-first approach
+- **Responsive Design** - Mobile-first approach
 
-### Ferramentas
-- **CodeSandbox** - Ambiente de desenvolvimento
-- **Git & GitHub** - Controle de versão
-- **Storage API** - Persistência local de dados
+### Tools
+- **CodeSandbox** - Development environment
+- **Git & GitHub** - Version control
+- **Storage API** - Local data persistence
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 src/
-├── App.js                          # Componente principal com lógica de estado
+├── App.js                          # Main component with state logic
 ├── components/
-│   ├── TodoInput.jsx              # Input para adicionar tarefas
-│   ├── TodoFilters.jsx            # Botões de filtro
-│   ├── TodoStats.jsx              # Estatísticas e contador
-│   ├── TodoList.jsx               # Lista de tarefas
-│   └── TodoItem.jsx               # Item individual de tarefa
+│   ├── TodoInput.jsx              # Input to add tasks
+│   ├── TodoFilters.jsx            # Filter buttons
+│   ├── TodoStats.jsx              # Statistics and counter
+│   ├── TodoList.jsx               # Task list
+│   └── TodoItem.jsx               # Individual task item
 ├── styles/
-│   ├── App.module.css             # Estilos do container principal
-│   ├── TodoInput.module.css       # Estilos do input
-│   ├── TodoFilters.module.css     # Estilos dos filtros
-│   ├── TodoStats.module.css       # Estilos das estatísticas
-│   ├── TodoList.module.css        # Estilos da lista
-│   └── TodoItem.module.css        # Estilos do item
-└── index.js                        # Ponto de entrada da aplicação
+│   ├── App.module.css             # Main container styles
+│   ├── TodoInput.module.css       # Input styles
+│   ├── TodoFilters.module.css     # Filter styles
+│   ├── TodoStats.module.css       # Statistics styles
+│   ├── TodoList.module.css        # List styles
+│   └── TodoItem.module.css        # Item styles
+└── index.js                        # Application entry point
 ```
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-### Pré-requisitos
-- Node.js instalado (versão 14 ou superior)
-- npm ou yarn
+### Prerequisites
+- Node.js installed (version 14 or higher)
+- npm or yarn
 
-### Instalação
+### Installation
 
-1. Clone o repositório
+1. Clone the repository
 ```bash
 git clone https://github.com/Michel-LDR/todo-list-react.git
 ```
 
-2. Entre na pasta do projeto
+2. Enter the project folder
 ```bash
 cd todo-list-react
 ```
 
-3. Instale as dependências
+3. Install dependencies
 ```bash
 npm install
 ```
 
-4. Rode o projeto
+4. Run the project
 ```bash
 npm start
 ```
 
-5. Acesse no navegador
+5. Access in browser
 ```
 http://localhost:3000
 ```
 
-## Design e UX
+## Design and UX
 
-O design foi pensado para ser:
-- **Minimalista** - Interface limpa e sem distrações
-- **Intuitivo** - Fácil de usar, mesmo para iniciantes
-- **Moderno** - Gradientes, sombras e animações suaves
-- **Acessível** - Bom contraste e tamanhos de fonte adequados
+The design was created to be:
+- **Minimalist** - Clean interface without distractions
+- **Intuitive** - Easy to use, even for beginners
+- **Modern** - Gradients, shadows, and smooth animations
+- **Accessible** - Good contrast and appropriate font sizes
 
-### Paleta de Cores
-- **Primária**: `#667eea` (Roxo vibrante)
-- **Secundária**: `#764ba2` (Roxo escuro)
-- **Sucesso**: `#4CAF50` (Verde)
-- **Erro**: `#ff5252` (Vermelho)
-- **Neutro**: `#f8f9fa` (Cinza claro)
+### Color Palette
+- **Primary**: `#667eea` (Vibrant purple)
+- **Secondary**: `#764ba2` (Dark purple)
+- **Success**: `#4CAF50` (Green)
+- **Error**: `#ff5252` (Red)
+- **Neutral**: `#f8f9fa` (Light gray)
 
-## Conceitos Aplicados
+## Applied Concepts
 
 ### React Fundamentals
-- Componentes funcionais
-- Props e comunicação entre componentes
+- Functional components
+- Props and component communication
 - Lifting state up
-- Composição de componentes
+- Component composition
 
 ### React Hooks
-- **useState** - Gerenciamento de estado local
-- **useEffect** - Side effects e persistência de dados
+- **useState** - Local state management
+- **useEffect** - Side effects and data persistence
 
-### JavaScript Moderno
+### Modern JavaScript
 - Array methods (map, filter, some)
 - Ternary operators
 - Template literals
 - Destructuring
 
-### CSS Avançado
-- CSS Modules para escopo isolado
-- Flexbox para layouts
-- Transitions e transforms
+### Advanced CSS
+- CSS Modules for isolated scope
+- Flexbox for layouts
+- Transitions and transforms
 - Pseudo-classes (:hover, :focus)
 
-## Aprendizados
+## Key Learnings
 
-Durante o desenvolvimento deste projeto, aprendi:
+During the development of this project, I learned:
 
-1. **Componentização eficiente** - Como dividir uma aplicação em componentes reutilizáveis
-2. **Gerenciamento de estado** - Uso de hooks para controlar dados da aplicação
-3. **Props drilling** - Passar dados entre componentes pai e filho
-4. **CSS Modules** - Evitar conflitos de estilos em aplicações maiores
-5. **Persistência de dados** - Salvar informações localmente
-6. **Clean Code** - Escrever código limpo, legível e manutenível
-7. **Boas práticas** - Seguir padrões da indústria
+1. **Efficient componentization** - How to divide an application into reusable components
+2. **State management** - Using hooks to control application data
+3. **Props drilling** - Passing data between parent and child components
+4. **CSS Modules** - Avoiding style conflicts in larger applications
+5. **Data persistence** - Saving information locally
+6. **Clean Code** - Writing clean, readable, and maintainable code
+7. **Best practices** - Following industry standards
 
-## Próximas Melhorias
+## Future Improvements
 
-- [ ] Adicionar drag and drop para reordenar tarefas
-- [ ] Implementar categorias/tags para tarefas
-- [ ] Adicionar data de vencimento
-- [ ] Modo escuro (dark mode)
-- [ ] Notificações para tarefas importantes
-- [ ] Exportar tarefas em PDF
-- [ ] Sync com backend (API)
-- [ ] Autenticação de usuários
-- [ ] Compartilhamento de listas
+- [ ] Add drag and drop to reorder tasks
+- [ ] Implement categories/tags for tasks
+- [ ] Add due dates
+- [ ] Dark mode
+- [ ] Notifications for important tasks
+- [ ] Export tasks to PDF
+- [ ] Sync with backend (API)
+- [ ] User authentication
+- [ ] List sharing
 
-## Autor
+## Author
 
 **Michel Röhrig**
 
 - GitHub: [@Michel-LDR](https://github.com/Michel-LDR)
 - LinkedIn: [Michel Röhrig](https://www.linkedin.com/in/michel-r%C3%B6hrig-870528242/)
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
-
+---
