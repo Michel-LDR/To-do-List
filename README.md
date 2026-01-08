@@ -168,6 +168,4 @@ Durante o desenvolvimento deste projeto, aprendi:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
 
-Desenvolvido com dedicação e muito café
